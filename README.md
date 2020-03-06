@@ -1,7 +1,7 @@
 
 This reduced test-case reproduces an issue seen in production using EF Core 2.2.4 on .NET Core 2.1.
 
-The sequence of inserts and selects, the  configuration of the Zombie database and the use of RepeatableRead
+The sequence of inserts and selects, the schema of the Zombie tables and the use of RepeatableRead
 isolation level replicate the real-world scenario, though not all these factors may be required.
 
 # Instructions
