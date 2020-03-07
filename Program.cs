@@ -34,7 +34,7 @@ namespace ZombieTester
                 {
                     using (var conn = OpenDbConnection())
                     {
-                        System.Console.WriteLine($"Using {conn.GetType().Namespace}");
+                        System.Console.WriteLine($"Using {conn.GetType().Namespace} {conn.GetType().Assembly.GetName().Version}");
                         CleanZombieRecords(conn);
                     }
 
